@@ -9,18 +9,6 @@ Replace **all occurrences** of these placeholders:
 - `José María Martínez Muñoz`: your legal name (privacy contact/controller identity).
 - `support@jmmartinezdev.com`: your real support email address. The placeholders occur in both visible text and `mailto:` links.
 
-Run the included script with Python 3 (no extra packages required):
-
-```sh
-python3 replace_placeholders.py --legal-name "Your Legal Name" --support-email "support@example.com"
-```
-
-The script updates UTF-8 text files throughout this project, including this README,
-and escapes special characters in HTML files. It skips hidden files/directories,
-binary files, symlinks, and its own source. Files are edited in place; keep a backup
-or commit your changes first. You can run it from any directory using its full path.
-Only placeholders are replaced; rerunning it does not change values already filled in.
-
 Review the privacy policy against what your **release build** actually does, particularly local file handling, networking, analytics, crash diagnostics, retention of support messages, and any third-party dependencies. Update the policy if reality differs. Check whether additional business/legal notices are required for your circumstances in Spain or the EU. Keep your support email active.
 
 ## Structure
