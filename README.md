@@ -2,15 +2,6 @@
 
 Static GitHub Pages website for PDFPairViewer. It includes a homepage, Privacy Policy, and Support page. No build tools, JavaScript, analytics, or cookies are added.
 
-## Important: customize before publishing
-
-Replace **all occurrences** of these placeholders:
-
-- `José María Martínez Muñoz`: your legal name (privacy contact/controller identity).
-- `support@jmmartinezdev.com`: your real support email address. The placeholders occur in both visible text and `mailto:` links.
-
-Review the privacy policy against what your **release build** actually does, particularly local file handling, networking, analytics, crash diagnostics, retention of support messages, and any third-party dependencies. Update the policy if reality differs. Check whether additional business/legal notices are required for your circumstances in Spain or the EU. Keep your support email active.
-
 ## Structure
 
 ```
@@ -20,30 +11,6 @@ support/index.html  Support
 assets/styles.css   Shared styles
 .nojekyll           Disable Jekyll processing
 ```
-
-## Publish with GitHub Pages (branch deployment)
-
-1. Create a **public**, empty GitHub repository named `pdfpairviewer-site` (do not initialize it with a README).
-2. In a terminal, inside this folder:
-
-   ```sh
-   git init
-   git branch -M main
-   git add .
-   git commit -m "Add PDFPairViewer website"
-   git remote add origin https://github.com/USERNAME/pdfpairviewer-site.git
-   git push -u origin main
-   ```
-
-3. On GitHub: Repository **Settings → Pages → Build and deployment**.
-4. Choose **Deploy from a branch**, **main**, **/(root)**, and click **Save**.
-5. Once deployed, the URLs will be:
-
-   - `https://USERNAME.github.io/pdfpairviewer-site/`
-   - `https://USERNAME.github.io/pdfpairviewer-site/privacy/`
-   - `https://USERNAME.github.io/pdfpairviewer-site/support/`
-
-Replace `USERNAME` with your real GitHub username. On GitHub Free, the repository must be public. The site itself is public.
 
 ## App Store Connect
 
