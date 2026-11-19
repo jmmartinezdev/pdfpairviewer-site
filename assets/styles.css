@@ -20,9 +20,7 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-
 .nav { border-bottom: 1px solid var(--line); background: var(--surface); }
 .nav .wrap { min-height: 74px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .brand { display: inline-flex; align-items: center; gap: 11px; text-decoration: none; font-size: 16px; font-weight: 750; color: var(--text); letter-spacing: -.02em; }
-.mark { display: inline-grid; grid-template-columns: 1fr 1fr; gap: 3px; width: 32px; height: 32px; padding: 7px; border-radius: 9px; background: var(--accent); }
-.mark span { border-radius: 2px; background: white; opacity: .95; }
-.mark span:last-child { opacity: .65; }
+.mark { display: block; width: 32px; height: 32px; flex-shrink: 0; object-fit: contain; }
 nav[aria-label] { display: flex; flex-wrap: wrap; align-items: center; gap: 23px; }
 nav[aria-label] a { color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 600; }
 nav[aria-label] a[aria-current="page"], nav[aria-label] a:hover { color: var(--accent); }
@@ -57,7 +55,6 @@ footer .wrap { display: flex; justify-content: space-between; gap: 14px; flex-wr
 footer a { color: var(--muted); margin-left: 18px; }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #121622; --surface: #1a2130; --text: #edf1ff; --muted: #afb9cd; --line: #30394a; --accent: #a5b2ff; --accent2: #2a335a; --shadow: 0 10px 35px rgba(0,0,0,.1); }
-  .mark { background: #6577ed; }
   .button { background: #7486f0; border-color: #7486f0; color: #101525; }
   .button.secondary { color: var(--accent); }
 }
